@@ -1,0 +1,20 @@
+{
+  "name": "whats-notification",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r dotenv/config test/sendMessageQueue.js",
+    "dev": "node -r dotenv/config start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1148.0",
+    "dotenv": "^16.0.1",
+    "sqs-consumer": "^5.7.0",
+    "uuid": "^8.3.2",
+    "venom-bot": "^4.1.0"
+  }
+}
